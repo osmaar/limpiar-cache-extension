@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "LIMPIAR CACHE",
+  "version": "1.0",
+  "description": "Limpia los datos del sitio actual con un solo clic.",
+  "permissions": [
+    "browsingData",
+    "activeTab",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
